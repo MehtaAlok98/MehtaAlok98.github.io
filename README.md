@@ -26,6 +26,7 @@ This is a personal blog and website built with Jekyll and hosted on GitHub Pages
 ├── _data/               # Structured data files
 │   └── navigation.yml   # Data for the navigation bar
 └── _site/               # Auto-generated directory (don't edit)
+```
 
 ## Features
 
