@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <header>
-      <h1>{{ page.title }}</h1>
-      <p><small>Posted on {{ page.date | date: "%B %d, %Y" }}</small></p>
-    </header>
-    <article>
-      {{ content }}
-    </article>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date: "%B %d, %Y" }}</p>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>Powered by Jekyll</p>
+  </footer>
+</body>
 </html>
