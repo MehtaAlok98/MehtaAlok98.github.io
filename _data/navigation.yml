@@ -1,0 +1,8 @@
+- title: Home
+  url: "/"
+- title: About
+  url: "/about.html"
+- title: Blog
+  url: "/posts.html"
+- title: Contact
+  url: "/contact.html"

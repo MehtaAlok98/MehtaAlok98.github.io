@@ -1,0 +1,39 @@
+nav {
+  background-color: $primary-color;
+  padding: $padding-default;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+
+    li {
+      margin-right: 1.5rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  color: white;
+  font-size: $header-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+}
