@@ -24,12 +24,12 @@ jobs:
 
       - name: Build with Jekyll
         run: |
-          bundle exec jekyll build --source ./ --destination ./_site
+          bundle exec jekyll build --source ../../ --destination ../../_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: ../../_site
           name: github-pages 
 
   deploy:

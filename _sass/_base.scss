@@ -25,3 +25,49 @@ a {
     color: $secondary-color;
   }
 }
+
+.sidebar {
+  width: 250px;
+  background-color: $primary-color;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  overflow-y: auto; // Added to handle overflow
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    li {
+      margin: 1rem 0;
+      a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 0.12rem;
+        &:hover {
+          background-color: $secondary-color;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  margin-left: 250px;
+  padding: 2rem;
+  section {
+    margin-bottom: 2rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: $primary-color;
+  color: white;
+}
